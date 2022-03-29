@@ -2,3 +2,5 @@
 *.log
 !.gitignore
 .DS_Store
+target
+!target/wework-sdk-3.0.jar
