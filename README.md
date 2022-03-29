@@ -10,7 +10,7 @@
 - [wework-msgaudit](https://github.com/aa24615/wework-msgaudit) 带web管理 支持多企业 入库mysql
 
 
-- 把动态库拷贝到系统
+### 把动态库拷贝到系统
 
 ```shell
 cp ./lib/WeWorkFinanceSdk.so /usr/lib/WeWorkFinanceSdk.so
