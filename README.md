@@ -5,8 +5,9 @@
 
 ### 相关集成包
 
-[wework-message](https://github.com/aa24615/wework-message)
-[wework-msgaudit](https://github.com/aa24615/wework-msgaudit)
+- [wework-message](https://github.com/aa24615/wework-message)
+
+- [wework-msgaudit](https://github.com/aa24615/wework-msgaudit)
 
 ### 调用示例
 
