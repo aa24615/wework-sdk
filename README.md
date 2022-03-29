@@ -1,12 +1,20 @@
 # wework-sdk
 
-企业微信-会话内容存档 java SDK
+企业微信-会话内容存档 java SDK    
+如果为最原始的sdk调用接口,需要您需要解密等操作,请参考以下相关集成包
 
 
 ### 相关集成包
 
-- [wework-message](https://github.com/aa24615/wework-message)
-- [wework-msgaudit](https://github.com/aa24615/wework-msgaudit)
+- [wework-message](https://github.com/aa24615/wework-message) 获取聊天记录,解密,下载媒体文件
+- [wework-msgaudit](https://github.com/aa24615/wework-msgaudit) 带web管理 支持多企业 入库mysql
+
+
+- 把动态库拷贝到系统
+
+```shell
+cp ./lib/WeWorkFinanceSdk.so /usr/lib/WeWorkFinanceSdk.so
+```
 
 ### 调用示例
 
