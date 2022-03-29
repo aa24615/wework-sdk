@@ -10,7 +10,8 @@
 
 ### 调用示例
 
-'''java
+```java
+
 import com.tencent.wework.Finance;
 import java.io.*;
 
@@ -113,6 +114,6 @@ String priKey =
         Finance.DestroySdk(sdk);
     }
 }
-'''
+```
 
 
