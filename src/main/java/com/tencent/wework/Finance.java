@@ -135,6 +135,19 @@ public class Finance {
     public native static int IsMediaDataFinish(long mediaData);
 
     static {
-        System.load("/usr/lib/WeWorkFinanceSdk.so");
+        try {
+            System.load("/usr/lib/WeWorkFinanceSdk.so");
+        }catch (Exception exception){
+            try {
+                System.load("C:\\Windows\\System32\\WeWorkFinanceSdk.dll");
+            }catch (Exception winException){
+                try {
+                    throw new Exception("找不到动态库");
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+
     }
 }
