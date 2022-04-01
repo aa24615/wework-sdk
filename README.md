@@ -4,10 +4,6 @@
 本包只提供最原始的sdk调用接口,需要您需要解密等操作,请参考以下相关集成包
 
 
-本包的多版本,不同的系统使用不同的包,并且使用不同的动态库
-- [wework-sdk](https://github.com/aa24615/wework-win) linux版
-- [wework-sdk-win](https://github.com/aa24615/wework-win) win版
-
 ### 相关集成包
 
 - [wework-message](https://github.com/aa24615/wework-message) 获取聊天记录,解密,下载媒体文件
