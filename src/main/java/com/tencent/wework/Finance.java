@@ -137,10 +137,10 @@ public class Finance {
     static {
         try {
             System.load("/usr/lib/WeWorkFinanceSdk.so");
-        }catch (Exception exception){
+        }catch (UnsatisfiedLinkError exception){
             try {
                 System.load("C:\\Windows\\System32\\WeWorkFinanceSdk.dll");
-            }catch (Exception winException){
+            }catch (UnsatisfiedLinkError winException){
                 try {
                     throw new Exception("找不到动态库");
                 } catch (Exception e) {
